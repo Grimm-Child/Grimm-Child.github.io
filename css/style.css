@@ -72,9 +72,9 @@ body {
 }
 
 .svg-text {
+	display: block;
   position: relative;
-top: 10%
-  -webkit-transform: rotateX(30deg);
+-webkit-transform: rotateX(30deg);
           transform: rotateX(30deg);
   font-size: 10em;
   font-family: 'Damion', cursive;
@@ -107,9 +107,8 @@ top: 10%
 }
 
 .hover {
-  display: absolute;
-	top:10%;
-		right: 20%;
+  display: inline-block;
+	position: relative;
   color: white;
   font-size: 4em;
   line-height: .4em;
@@ -163,10 +162,12 @@ top: 10%
 	position: absolute;
 	top: 20%;
 	left: 80%;
+	display: inline-block;
 }
 
 #maintext {
 	position: absolute;
 	top: 25%;
 	left: 40%;
+	display: block;
 }
