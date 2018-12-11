@@ -138,21 +138,17 @@ body {
 }
 
 #words_container {
-	
+	display: flex;
 	z-index: 10;
 	
 }
 
 #subtext {
 	position: relative;
-margin-top: 10%;
-    left: 55%;
-	display: inline-block;
+	display: inline-flex;
 }
 
 #maintext {
 	position: relative;
-margin-top: 15%;
-    left: 30%;
-	display: inline-block;
+	display: inline-flex;
 }
