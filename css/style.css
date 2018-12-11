@@ -148,7 +148,7 @@ body {
 #words_container {
 	position: absolute;
 	z-index: 10;
-	top: 0;
+	top: 10%;
 	left: 0;
 	width: 100vw;
 	heiht: 100vh;
