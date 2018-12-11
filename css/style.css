@@ -71,7 +71,7 @@ body {
 
 .svg-text {
 	position: relative;
-	top: 20%;
+
 	display: inline-block;
 -webkit-transform: rotateX(30deg);
           transform: rotateX(30deg);
@@ -117,7 +117,8 @@ body {
   text-shadow: 0 0.005em 0 #d9d9d9, 0 0.01em 0 #d9d9d9, 0 0.015em 0 #d9d9d9, 0 0.02em 0 #d9d9d9, 0 0.035em 0 #d9d9d9, 0 0.035em 0.02em rgba(33, 33, 33, 0.35), 0 0.038em 0.2em rgba(33, 33, 33, 0.65);
   -webkit-transform: translate(3.95em, 1.2em) rotate(25deg);
           transform: translate(3.95em, 1.2em) rotate(25deg);
-	transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;	
+          transform-origin: 50% 50%;
 }
 
 @-webkit-keyframes offsetAnim {
