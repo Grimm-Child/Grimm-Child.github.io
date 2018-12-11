@@ -148,14 +148,9 @@ body {
 }
 
 #words_container {
-	position: absolute;
+	
 	z-index: 10;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	heiht: 100vh;
-	margin: 0;
-	padding: 0;
+	
 }
 
 #subtext {
