@@ -158,3 +158,15 @@ top: 10%
 	margin: 0;
 	padding: 0;
 }
+
+#subtext {
+	position: absolute;
+	top: 20%;
+	left: 80%;
+}
+
+#maintext {
+	position: absolute;
+	top: 25%;
+	left: 40%;
+}
