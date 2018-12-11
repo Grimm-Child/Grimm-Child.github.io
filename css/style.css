@@ -161,13 +161,13 @@ body {
 #subtext {
 	position: absolute;
 	top: 20%;
-	left: 80%;
+	left: 40%;
 	display: inline-block;
 }
 
 #maintext {
 	position: absolute;
 	top: 25%;
-	left: 40%;
+	left: 20%;
 	display: block;
 }
