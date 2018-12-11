@@ -72,7 +72,7 @@ body {
 .svg-text {
 	position: relative;
 	top: 20%;
-	display: block;
+	display: inline-block;
 -webkit-transform: rotateX(30deg);
           transform: rotateX(30deg);
   font-size: 10em;
