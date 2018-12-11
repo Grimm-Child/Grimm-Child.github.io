@@ -107,7 +107,9 @@ top: 10%
 }
 
 .hover {
-  display: inline-block;
+  display: absolute;
+	top:10%;
+		right: 20%;
   color: white;
   font-size: 4em;
   line-height: .4em;
