@@ -73,6 +73,7 @@ body {
 
 .svg-text {
   position: relative;
+top: 10%
   -webkit-transform: rotateX(30deg);
           transform: rotateX(30deg);
   font-size: 10em;
@@ -148,7 +149,7 @@ body {
 #words_container {
 	position: absolute;
 	z-index: 10;
-	top: 10%;
+	top: 0;
 	left: 0;
 	width: 100vw;
 	heiht: 100vh;
