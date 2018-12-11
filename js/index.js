@@ -42,8 +42,8 @@
 
         var paralaxSize = 50;
 
-        var colorMin = 200;
-        var colorMax = 340;
+        var colorMin = 260;
+        var colorMax = 335;
         var color    = 280;
 
         var paralax = {
@@ -383,8 +383,8 @@
         var drawBg = function()
         {
             var g = engine.createRadialGradient(0, -200, 1, 0, -200, window.innerWidth + 200);
-            g.addColorStop(0, hsl([color, 100, 30, 0.7]));
-            g.addColorStop(1, hsl([color, 100, 10, 0.7]));
+            g.addColorStop(0, hsl([color, 335, 100%, 70%]));
+            g.addColorStop(1, hsl([color, 335, 10, 0.7]));
             engine.fillStyle = g;
 
             engine.fillRect(0, 0, window.innerWidth, window.innerHeight);
