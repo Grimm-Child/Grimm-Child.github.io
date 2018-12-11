@@ -160,14 +160,14 @@ body {
 
 #subtext {
 	position: absolute;
-	top: 20%;
-	left: 40%;
+margin-top: 10%;
+    left: 55%;
 	display: inline-block;
 }
 
 #maintext {
 	position: absolute;
-	top: 25%;
-	left: 20%;
+margin-top: 15%;
+    left: 30%;
 	display: block;
 }
