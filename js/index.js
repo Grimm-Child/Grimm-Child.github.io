@@ -17,21 +17,21 @@
         var starEngine     = starCanvas.getContext('2d');
 
         var layer        = [];
-        var maxLayer     = 5;
+        var maxLayer     = 10;
 
         var layerTick         = 0;
-        var layerMaxTick      = 10;
+        var layerMaxTick      = 20;
         var layerMaxSuperTick = layerMaxTick * maxLayer;
         var layerCount        = 0;
 
         var minStars = 20;
-        var maxStars = 100;
+        var maxStars = 150;
 
         var minFogs  = 10;
-        var maxFogs  = 30;
+        var maxFogs  = 50;
 
         var minFogLayer = 3;
-        var maxFogLayer = 5;
+        var maxFogLayer = 8;
 
         var baseTicker = 0;
 
