@@ -12,8 +12,6 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
-  padding: 0;
   border: 0;
   font: inherit;
   font-size: 100%;
@@ -73,7 +71,6 @@ body {
 
 .svg-text {
 	display: block;
-  position: relative;
 -webkit-transform: rotateX(30deg);
           transform: rotateX(30deg);
   font-size: 10em;
@@ -137,14 +134,7 @@ body {
 }
 
 #canvas_container {
-	position: absolute;
 	z-index: -10;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	height:100vh;
-	margin: 0;
-	padding: 0;
 }
 
 #words_container {
@@ -154,15 +144,15 @@ body {
 }
 
 #subtext {
-	position: absolute;
+	position: relative;
 margin-top: 10%;
     left: 55%;
 	display: inline-block;
 }
 
 #maintext {
-	position: absolute;
+	position: relative;
 margin-top: 15%;
     left: 30%;
-	display: block;
+	display: inline-block;
 }
