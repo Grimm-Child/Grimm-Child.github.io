@@ -28,7 +28,12 @@ body
     width: 100%;
     box-sizing: border-box;
 }
-
+#words {
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	z-index: 99999;
+}
 body
 {
     background-color: #d0d0d0;
