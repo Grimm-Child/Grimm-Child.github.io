@@ -383,7 +383,7 @@
         var drawBg = function()
         {
             var g = engine.createRadialGradient(0, -200, 1, 0, -200, window.innerWidth + 200);
-            g.addColorStop(0, hsl([color, 335, 100%, 70%]));
+            g.addColorStop(0, hsl([color, 335, 100, 0.7]));
             g.addColorStop(1, hsl([color, 335, 10, 0.7]));
             engine.fillStyle = g;
 
