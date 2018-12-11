@@ -137,10 +137,15 @@ body {
 
 #canvas_container {
 	z-index: -10;
+	display: inline-block;
 }
 
 #words_container {
 	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
 	z-index: 10;
 	
 }
